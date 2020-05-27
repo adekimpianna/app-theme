@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+
+}
+
+/* common class */
+.primary-text {
+    color: #56a79a;
+}
+
+/* header */
+#main-header {
+    border-bottom: 2px solid #56a79a;
+}
+
+/* nav */
+#navbar {
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li .current a, #navbar a:hover {
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/* company */
+#company {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"] {
+    padding: 7px;
+}
+
+#company button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+#company .fa {
+    color: white;
+}
+
+/* footer */
+#main-footer {
+    background: #56a79a;
+    color: white
+}
