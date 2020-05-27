@@ -2,7 +2,6 @@
 
 > App-theme: Code Along
 
-* In this project we will make a another website that is based on the example of [**App Theme design by Traversy Media**](https://www.youtube.com/watch?v=qlA7dputiNc).
 * From the [**wireframe**](#wireframe) we can see the HMTL layout that will be covered in this project and then we are going to create respective styles for the websites based on the wireframes. 
 * Here you can also see how the project is developed step by step (0-x) as per Agile values, through [**branches**](#0.set-up) that each contains a user story or persona in marketing (visitor perspective and their needs). We can see what has to be done in each branch in order to answer to the user story and its needs. Then we apply it to the development our pages.
 
@@ -47,9 +46,9 @@ __A User can see my initial repository and live demo__
 
 ---
 
-## 1. User story: Knowing the company
+## 1. User story: Landing on the homepage
 
-_As a site visitor, I want to know what the company is and some small info about them_
+_As a site visitor, I want to know what website I am seeing, to whom (or to which company) it belongs to and a small info about them_
 
 ### Branch(es)
 
@@ -62,7 +61,7 @@ _As a site visitor, I want to know what the company is and some small info about
 
 ### HTML
 
-1. Put up the title on head and other meta families
+1. Put up the title on head and other meta families (including fontawesome script)
 1. Create header: company logo/name, nav
 1. Create a company section:  contacts, about us, newsletter with sign up button
 1. Create footer: copyright
@@ -70,13 +69,14 @@ _As a site visitor, I want to know what the company is and some small info about
 ### CSS
 
 1. Create a separate css file
+1. Insert css sheet: flexboxgrid
 2. Add styling on new elements
 
 ---
 
-## 2. User story: More about the business
+## 2. User story: More about the business specialties
 
-_As a site visitor, I want to know more about their business inclusions_
+_As a site visitor, I want to know more about their business inclusions or the advantages if I have a business with them_
 
 ### Branch(es)
 
@@ -100,7 +100,7 @@ Add styling on new elements
 
 ---
 
-## 3. User story: Want to know more about the company
+## 3. User story: More about the company
 
 _As a site visitor, I want to know the history of this company and what they do_
 
@@ -125,9 +125,9 @@ Add styling on new elements
 
 ---
 
-## 4. User story: Want to know more about the available services
+## 4. User story: More about the available services they offered
 
-_As a site visitor, I want to know what services they offer in this business_
+_As a site visitor, I want to know what services I can buy from them_
 
 ### Branch(es)
 
@@ -151,7 +151,7 @@ Add styling on new elements
 
 ## 5. User story: Interested in their services
 
-_As a site visitor, I am interested in their business, but I dont know the prices so I want to reach them_
+_As a site visitor, I am interested in their business/services (but I dont know the prices) so I want to reach them_
 
 ### Branch(es)
 
@@ -165,7 +165,7 @@ _As a site visitor, I am interested in their business, but I dont know the price
 ### HTML
 
 1. Use header, company section and footer from the landing page
-1. Add a form to be filled out by prospective clients
+1. Add a get-in-touch form to be filled out by prospective clients
 
 ### CSS
 
