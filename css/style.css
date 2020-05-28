@@ -184,6 +184,32 @@ img {
     padding: 10px;
 }
 
+/*--------------------------------*/
+/* contact */
+.contact form {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.contact form input[type="text"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: white;
+}
+
+.contact form label {
+    text-transform: uppercase;
+}
+
 /* media queries */
 @media (max-width:800px) {
     #showcase h2 {
