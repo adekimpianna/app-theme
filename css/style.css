@@ -166,12 +166,23 @@ img {
 
 /*-------------------------------*/
 /* About page */
-/* About us */
+#page {
+    margin-bottom:40px;
+  }
 
 /*-------------------------------*/
 /* Services page */
-/*  */
+.services ul li:nth-child(odd) {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
 
+.services ul li:nth-child(even) {
+    background: #56a79a;
+    color: white;
+    padding: 10px;
+}
 
 /* media queries */
 @media (max-width:800px) {
