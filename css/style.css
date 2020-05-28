@@ -21,6 +21,10 @@ img {
     color: #56a79a;
 }
 
+#subheader h2 {
+    font-weight: 900;
+}
+
 /* header */
 #main-header {
     border-bottom: 2px solid #56a79a;
@@ -43,7 +47,7 @@ img {
     color: #888;
 }
 
-#navbar li .current a, #navbar a:hover {
+#navbar .current a, #navbar a:hover {
     color: #56a79a;
     border-bottom: 3px solid #56a79a;
     padding-bottom: 3px;
@@ -159,6 +163,15 @@ img {
     background: #56a79a;
     color: white
 }
+
+/*-------------------------------*/
+/* About page */
+/* About us */
+
+/*-------------------------------*/
+/* Services page */
+/*  */
+
 
 /* media queries */
 @media (max-width:800px) {
