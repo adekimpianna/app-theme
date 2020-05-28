@@ -25,6 +25,13 @@ img {
     font-weight: 900;
 }
 
+#page {
+    margin-bottom:40px;
+    min-height: calc(100vh - 64px - 59px - 181px - 52px - 35px);
+  }
+
+/*---------------------------------*/
+
 /* header */
 #main-header {
     border-bottom: 2px solid #56a79a;
@@ -166,9 +173,7 @@ img {
 
 /*-------------------------------*/
 /* About page */
-#page {
-    margin-bottom:40px;
-  }
+
 
 /*-------------------------------*/
 /* Services page */
@@ -200,6 +205,7 @@ img {
 
 .contact form textarea {
     width: 50%;
+    height: 120px;
     padding: 10px 0;
     border: 0;
     background: #222;
