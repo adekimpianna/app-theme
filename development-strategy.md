@@ -115,7 +115,8 @@ _As a site visitor, I want to know the history of this company and what they do_
 
 ### HTML
 
-1. Use header, company section and footer from the landing page
+1. Use header, company section and footer from the landing page#
+1. Add sub header section with the title of the page
 1. Add two sections: who we are and what we do
 
 
@@ -141,6 +142,7 @@ _As a site visitor, I want to know what services I can buy from them_
 ### HTML
 
 1. Use header, company section and footer from the landing page
+1. Add sub header section with the title of the page
 1. Add a section to show services available from the company
 
 ### CSS
@@ -165,6 +167,7 @@ _As a site visitor, I am interested in their business/services (but I dont know 
 ### HTML
 
 1. Use header, company section and footer from the landing page
+1. Add sub header section with the title of the page
 1. Add a get-in-touch form to be filled out by prospective clients
 
 ### CSS
@@ -178,7 +181,7 @@ Add styling on new elements
 ### Branch(es)
 
 1. Create an issue related to this user story on Github and assign self.
-1. Add another branch named `7-final-touches`
+1. Add another branch named `6-final-touches`
 1. Check the content, HTML, CSS and add responsive design, if not yet.
 1. Validate the code to check for any last mistakes, **fix it**.
 1. Write final, complete README and last touch on `development-strategy.md`, if still needed, not about the development/steps itself but maybe add wireframes or check typo.
