@@ -206,13 +206,18 @@ img {
 .contact form textarea {
     width: 50%;
     height: 120px;
-    padding: 10px 0;
-    border: 0;
-    color: white;
 }
 
 .contact form label {
     text-transform: uppercase;
+}
+
+.contact button {
+    width: 50%;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border: 0;
 }
 
 /* media queries */
